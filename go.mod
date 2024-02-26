@@ -1,4 +1,4 @@
-module github.com/acheong08/vectordb
+module github.com/tiebingzhang/vectordb
 
 go 1.20
 
