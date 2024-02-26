@@ -2,6 +2,7 @@ module github.com/tiebingzhang/vectordb
 
 go 1.20
 
+
 require (
 	github.com/acheong08/cybertron v0.1.3-0.20230526061827-bda4623885f7
 	github.com/rs/zerolog v1.27.0
