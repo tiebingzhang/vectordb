@@ -3,7 +3,7 @@ package vectordb_test
 import (
 	"testing"
 
-	search "github.com/acheong08/vectordb"
+	search "github.com/tiebingzhang/vectordb"
 )
 
 func TestSemanticSearch(t *testing.T) {

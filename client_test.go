@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/acheong08/vectordb"
+	"github.com/tiebingzhang/vectordb"
 )
 
 func TestAdd(t *testing.T) {

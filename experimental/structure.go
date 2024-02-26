@@ -1,6 +1,6 @@
 package experimental
 
-import "github.com/acheong08/vectordb/typings"
+import "github.com/tiebingzhang/vectordb/typings"
 
 type Chunk struct {
 	Type      string

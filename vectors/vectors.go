@@ -5,9 +5,9 @@ import (
 	"os"
 	"sync"
 
-	"github.com/acheong08/cybertron/pkg/models/bert"
-	"github.com/acheong08/cybertron/pkg/tasks"
-	"github.com/acheong08/cybertron/pkg/tasks/textencoding"
+	"github.com/tiebingzhang/cybertron/pkg/models/bert"
+	"github.com/tiebingzhang/cybertron/pkg/tasks"
+	"github.com/tiebingzhang/cybertron/pkg/tasks/textencoding"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 )

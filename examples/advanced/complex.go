@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/acheong08/vectordb/rank"
-	"github.com/acheong08/vectordb/vectors"
+	"github.com/tiebingzhang/vectordb/rank"
+	"github.com/tiebingzhang/vectordb/vectors"
 )
 
 func main() {

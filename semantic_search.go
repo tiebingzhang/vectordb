@@ -1,9 +1,9 @@
 package vectordb
 
 import (
-	"github.com/acheong08/vectordb/rank"
-	"github.com/acheong08/vectordb/typings"
-	"github.com/acheong08/vectordb/vectors"
+	"github.com/tiebingzhang/vectordb/rank"
+	"github.com/tiebingzhang/vectordb/typings"
+	"github.com/tiebingzhang/vectordb/vectors"
 )
 
 func SemanticSearch(query []string, corpus []string, results int, sorted bool) ([][]typings.SearchResult, error) {

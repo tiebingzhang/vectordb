@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/acheong08/vectordb/rank"
-	"github.com/acheong08/vectordb/typings"
-	"github.com/acheong08/vectordb/vectors"
+	"github.com/tiebingzhang/vectordb/rank"
+	"github.com/tiebingzhang/vectordb/typings"
+	"github.com/tiebingzhang/vectordb/vectors"
 )
 
 func generateRandomTensor(rows, cols int) [][]float64 {

@@ -6,7 +6,7 @@ import (
 
 	"reflect"
 
-	"github.com/acheong08/vectordb/vectors"
+	"github.com/tiebingzhang/vectordb/vectors"
 )
 
 func TestEncoding(t *testing.T) {

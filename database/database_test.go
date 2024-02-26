@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	gob "github.com/acheong08/vectordb/database"
+	gob "github.com/tiebingzhang/vectordb/database"
 )
 
 func TestNewDatabase(t *testing.T) {
