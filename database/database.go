@@ -78,18 +78,20 @@ func (db *Database) GetTexts() []string {
 
 func New(filePath string) (*Database, error) {
 	documents, err := Load(filePath)
+	if err == nil {
+		return &Database{
+		filePath:  filePath,
+		Documents: documents,
+		}, nil
+	}
+	
 	if err.Error() == ErrorFileNotFound {
 		return &Database{
 			filePath:  filePath,
 			Documents: []Document{},
 		}, nil
-	} else if err != nil {
-		return nil, err
 	}
-	return &Database{
-		filePath:  filePath,
-		Documents: documents,
-	}, nil
+	return nil, err
 }
 
 func Load(filePath string) ([]Document, error) {
